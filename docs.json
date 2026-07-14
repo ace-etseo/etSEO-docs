@@ -1,0 +1,68 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "etSEO Help Center",
+  "colors": {
+    "primary": "#12715B",
+    "light": "#418d7c",
+    "dark": "#0e5a49"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "index",
+              "getting-started/what-is-etseo",
+              "getting-started/connect-your-shop"
+            ]
+          },
+          {
+            "group": "Using etSEO",
+            "pages": [
+              "using-etseo/the-dashboard"
+            ]
+          },
+          {
+            "group": "Billing and account",
+            "pages": [
+              "billing-and-account/update-payment-method"
+            ]
+          },
+          {
+            "group": "Troubleshooting",
+            "pages": [
+              "troubleshooting/faq"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:support@etseo.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Open etSEO",
+      "href": "https://app.etseo.com"
+    }
+  },
+  "contextual": {
+    "options": ["copy", "view", "chatgpt", "claude", "perplexity"]
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/etseo",
+      "linkedin": "https://linkedin.com/company/etseo"
+    }
+  }
+}
